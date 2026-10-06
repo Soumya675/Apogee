@@ -1,0 +1,6 @@
+{
+  "name": "Apogee CTS - Consulting & Training Services",
+  "description": "High-impact campus recruitment training, psychometric profiling, hackathons, and placement acceleration for engineering & graduate students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

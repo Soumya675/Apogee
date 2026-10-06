@@ -1,0 +1,1033 @@
+
+<style>
+ ul.navbar-nav.nav.nav-tabs.pr-100.mp.navbar-right.border-0{padding-left:50px}li.card-item{margin-right:5px}#fixed-social{position:fixed;top:130px;z-index: 9}#fixed-social a{color:#fff;display:block;height:40px;position:relative;text-align:center;line-height:40px;width:40px;margin-bottom:1px;z-index:2;display:flex;justify-content:center;align-items:center}#fixed-social a:hover>span{visibility:visible;left:41px;opacity:1}#fixed-social a span{line-height:40px;left:60px;position:absolute;text-align:center;width:120px;visibility:hidden;transition-duration:.5s;z-index:1;opacity:0}.fixed-facebook,.fixed-facebook span{background-color:#00aae5}.fixed-twitter,.fixed-twitter span{background-color:#7d3895}.fixed-youtube,.fixed-youtube span{background-color:#00af54}.fixed-telegram,.fixed-telegram span{background-color:#ffc41e}.fixed-instagrem,.fixed-instagrem span{background-color:#ed2b29}.fixed-tumblr,.fixed-tumblr span{background-color:#eb1471}
+a.nav-link.btn-login {
+    margin-right: 10px;
+}
+
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+   
+    top: 50% !important;
+    transform: translateY(60%);
+}
+.header-brand {
+    margin-left: 0 !important;
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ed_menu_list {
+    justify-content: end;
+}
+.ed_menu_list li.nav-item {
+    width: auto !important;
+    margin-inline: 0px;
+}
+.ct_dropdown_menu {
+   
+    position: absolute;
+    right: 0;
+    top: 0px;
+    transform: translateX(178px);
+    background: #fff;
+    padding: 10px;
+    max-width: 320px;
+    width: 100%;
+    display: none;
+}
+.ct_dropdown_menu ul{
+   list-style: none;
+    margin-bottom: 0px;
+     padding-left: 0px
+}
+.ct_custom_dropdown:hover a.dropdown-item ~ .ct_dropdown_menu{
+  display: block;
+}
+.ct_dropdown_menu ul li {
+  
+    margin-bottom: 10px;
+    padding: 5px 10px;
+
+}
+.footer .column_1 .img_content img.field_img {
+  height: 7rem !important
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .nav-link:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    background-color: #313c89;
+    width: 0%;
+    height: 2px;
+    transition: 0.4s ease all;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.btn-login:after{
+  display: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  font-weight: 700;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover:after{
+   width: 100%;
+}
+body{
+    user-select: none;
+}
+.ct_ftr_search{
+  position: relative;
+}
+.ct_ftr_search button {
+    position: absolute;
+    top: 24px;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border: 0px;
+    border-radius: 10px 5px 5px 10px;
+    background-color: #006FFF;
+}
+.ct_ftr_search button svg{
+  fill: #fff;
+  width: 18px
+}
+.ct_ftr_search input.form-control {
+    height: 48px;
+    border-radius: 5px;
+}
+.ct_dropdown_menu ul li:hover{
+  background-color:#f5f5f5;
+}
+.ct_dropdown_menu ul li a {
+    color: #333;
+}
+.ed_menu_list ul.dropdown-menu.show {
+    margin-top: 0px;
+}
+
+#fixed-social a {
+ 
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+#fixed-social a span{
+  border-radius: 100px;
+}
+.header{
+  background-color: #fff !important
+}
+.header .nav-tabs .nav-link {
+    color: #333 !important;
+}
+.header{
+  height: 100%;
+}
+.android a {
+    font-size: 22px !important;
+    position: relative;
+    top: -3px;
+}
+.ct_sort_info h4{
+  font-size: 18px !important;
+}
+.ct_sort_info p{
+  font-size: 14px !important
+}
+.choose img{
+  object-fit: contain;
+}
+div#headerMenuCollapse.show {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 69px;
+    width: 350px;
+    right: 0;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 30px;
+    transition: 0.4s ease all
+}
+
+
+@media screen and (max-width: 1279px) and (min-width: 992px) {
+  .ct_d_teb_none{
+    display: none;
+  }
+}
+@media screen and (max-width:991px){
+  .header-brand {
+  
+    top: 0%;
+    transform: translateY(12%);
+}
+.nav-link, .nav-item ,.nav-tabs .nav-link{
+  transition: none;
+}
+.header-brand{
+  position: unset;
+  transform: unset;
+}
+.nav-tabs .nav-link{
+  padding-block:5px !important;
+}
+ul.navbar-nav.nav.nav-tabs.pr-100.mp.navbar-right.border-0 {
+    padding-left: 15px;
+}
+.navbar-toggler:not(:disabled):not(.disabled){
+  transform: unset;
+  top:0px !important;
+  outline: none;
+      margin-top: 20px;
+}
+.navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+}
+div#headerMenuCollapse{
+  right: -100%
+}
+.nav-tabs .nav-link{
+  transition: unset;
+}
+}
+@media screen and (max-width:768px) {
+ul.nav.navtab {
+    width: 100% !important;
+}
+.ct_main_menu .m-card-item{
+  display: none !important;
+}
+.ct_main_menu .navbar-toggler:not(:disabled):not(.disabled) {
+    top: 0px !important;
+    color: #333 !important;
+}
+.ct_main_menu .nav-tabs{
+  width: 100% !important;
+  background-color: unset !important;
+}
+.ct_dropdown_menu{
+  position: relative;
+  transform: translateX(0px);
+}
+}
+</style>
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Language" content="en" />
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#4188c9">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+ 
+  <link   rel="stylesheet"  href="https://apogeects.com/assets/themes/quizzy/css/animate.min.css" />
+
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="https://apogeects.com/assets/images/logo/1683100055output-onlinepngtools.png" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <!-- Generated: 2018-04-16 09:29:05 +0200 -->
+ 
+      <meta name="keywords" content="quiz, test, online, exams">
+      <meta name="description" content="A highly scalable and powerful Online Exam System to manage categories, quizzes, and multiple-choice questions. Prepare candidates to perform extraordinarily with an easy-to-use highly interactive platform and simplify the assessment cycle.">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500,700|Work+Sans:400,700" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    
+
+
+
+  
+    <title>Page Not Found - Spardhaguru</title>
+  
+         
+  
+                    <link rel="stylesheet" href="https://apogeects.com/assets/themes/admin/css/bootstrap.min.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://apogeects.com/assets/themes/admin/css/all.min.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://apogeects.com/assets/themes/quizzy/css/quizzy.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://apogeects.com/assets/themes/quizzy/css/custom.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://apogeects.com/assets/themes/admin/css/dataTables.bootstrap4.min.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://apogeects.com/assets/themes/admin/css/select2.min.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://apogeects.com/assets/themes/quizzy/css/cookiealert.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://apogeects.com/assets/themes/quizzy/css/noty.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://apogeects.com/assets/themes/admin/css/sweetalert.css?v=1.2.0">
+      
+
+
+<script> 
+  var BASE_URL = 'https://apogeects.com/'; 
+  var csrf_Name = 'csrf_test_name'; 
+  var csrf_Hash = '9d9432e550754967a6df58370290efcf'; 
+  var rtl_dir = "";
+  var are_you_sure = "Are you sure";
+  var permanently_deleted = "Delete permanent";
+  var yes_delere_it = "Delete";
+  var resume_quiz_lang = "Resume Quiz";
+  var quiz_result_lang = "Quiz Result";
+  var check_quiz_result = "Time Over Check Quiz Result";
+  var table_search = "Search";
+  var table_show = "Show";
+  var table_entries = "Entries";
+  var table_showing = "Showing";
+  var table_to = "To";
+  var table_of = "Of";
+  var java_error_msg = "Error";
+  var table_previous = "Previous";
+  var table_next = "Next";
+  var total_attemp = "Your total attemp is";
+  var yes_submit_now = "Submit Test";
+  var quiz_already_running = "Quiz already running";
+  var stop_running_quiz_msg = "Please complete quiz or Stop running quiz";
+  var resume_quiz = "Resume Quiz";
+  var stop_quiz = "Stop Quiz";
+  
+  var flash_message = '';
+  var flash_error = '';
+
+  var error_report = '';
+  var ad_left_time = '0';
+  var ad_active_quiz = '';
+  var test_page = 'quiz';
+  var login_user_id = 0;
+  login_user_id = parseInt(login_user_id); 
+
+  var disable_right_click = 'NO';
+  var disable_print_screen = 'YES';
+
+
+</script>
+
+
+</head>
+
+<body class="h-100 ">
+
+
+  <!-- Back to top button -->
+  <a id="back-to-top-button"><i class="fas fa-angle-double-up"></i></a>
+ <!--  <div class="page">
+    <div class="page-main">
+      <div class="ct_topbar">
+        <div class="ct_left_cnt">
+          <p>Welcome to ACTS</p>
+        </div>
+        <div class="ct_right_cnt">
+          <ul class="social-network social-circle">
+<li><a href="www.facebook.com/apogeects" title="Facebook"><i class="fab fa-facebook-square"></i></a></li>
+<li><a href="www.instagram.com/apogeects" title="instagram"><i class="fab fa-instagram"></i></a></li>
+<li><a href="www.twitter.com/apogeects" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+<li><a href="www.linkedin.com/company/apogeects" title="Linkdein"><i class="fab fa-linkedin"></i></a></li>
+</ul>
+        </div>
+        
+      </div> -->
+             <div class="header py-3 navigation-wrap start-header start-style">
+        <div class="container">
+          
+          <div class="navbar navbar-expand-lg py-1 ct_main_menu" >
+              				   <a class="header-brand mr-20" href="https://apogeects.com/">
+              <img class="header-brand-img" src="https://apogeects.com/assets/images/logo/1699148280Website_logo_1-removebg-preview.png">
+			           <div class="m-card-item">
+
+                        <a href="https://apogeects.com/cart" title="View Cart"><span class="cart-m"> <b>0</b></span><i class="fa fa-shopping-cart"></i></a></div>
+
+            <div class="collapse navbar-collapse text-right  ed_menu_list" id="headerMenuCollapse">
+
+              <ul class="navbar-nav nav nav-tabs pr-100 mp navbar-right  border-0"  >
+                                    <li class="nav-item" style="width: 100px;">
+                    <a class="nav-link" href="https://apogeects.com/">
+                     Home
+                    </a>
+                  </li>
+                  <li class="nav-item" style="width: 130px;">
+                    <a class="nav-link" href="https://apogeects.com/managetest">
+                     Test Series
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown" style="width: 88px;">
+                    <a class="nav-link"   data-toggle="dropdown" >  
+                   Courses <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+					                    <ul class="dropdown-menu">
+					                     <li class="ct_custom_dropdown">
+                      
+					  <a class="dropdown-item" href="javascript:void()" >Smile Foundation - A <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </a>
+					  
+                      <div class="ct_dropdown_menu">
+                        <ul>
+						                         
+                        </ul>
+                      </div>    
+                    </li>
+					                     <li class="ct_custom_dropdown">
+                      
+					  <a class="dropdown-item" href="javascript:void()" >Smile Foundation - B <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </a>
+					  
+                      <div class="ct_dropdown_menu">
+                        <ul>
+						                          <li>
+                            <a href="https://meet.google.com/zze-fgfy-abg" target="_blank">Soft Skills @ Jobskül</a>
+                          </li>
+						                         
+                        </ul>
+                      </div>    
+                    </li>
+					                     <li class="ct_custom_dropdown">
+                      
+					  <a class="dropdown-item" href="javascript:void()" >Smile Foundation - C <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </a>
+					  
+                      <div class="ct_dropdown_menu">
+                        <ul>
+						                         
+                        </ul>
+                      </div>    
+                    </li>
+					                     <li class="ct_custom_dropdown">
+                      
+					  <a class="dropdown-item" href="javascript:void()" >Smile Foundation - D <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </a>
+					  
+                      <div class="ct_dropdown_menu">
+                        <ul>
+						                         
+                        </ul>
+                      </div>    
+                    </li>
+					                     <li class="ct_custom_dropdown">
+                      
+					  <a class="dropdown-item" href="javascript:void()" >Test Session <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </a>
+					  
+                      <div class="ct_dropdown_menu">
+                        <ul>
+						                          <li>
+                            <a href="https://meet.google.com/rdh-hxhr-apf" target="_blank">Comm</a>
+                          </li>
+						                         
+                        </ul>
+                      </div>    
+                    </li>
+										
+                  </ul>
+
+                  </li>
+                    <li class="nav-item dropdown" style="width: 88px;">
+                    <a class="nav-link"   data-toggle="dropdown" >  
+                 Resources <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+					
+                    <ul class="dropdown-menu">
+					
+
+                      <li>
+                            <a class="dropdown-item" href="https://apogeects.com/ebook">e-books</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="https://apogeects.com/videos"> Videos</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="https://apogeects.com/pdf">Pdf </a>
+                          </li>
+				
+					
+                  </ul>
+
+                  </li>
+                  
+                 
+
+                  <li class="nav-item" style="width: 140px;">
+                    <a class="nav-link" href="https://apogeects.com/Partners">
+                  Partners
+                    </a>
+                  </li>
+                 <!-- <li class="nav-item " style="width: 88px;">
+                    <a class="nav-link" href="javascript:void()">  
+                  abc 
+                    </a>
+                     
+                  </li>-->
+                  
+             
+                  <li class="nav-item dropdown " style="width: 88px;">
+                    <a class="nav-link"  data-toggle="dropdown"> 
+                   More <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                     <li class="ct_custom_dropdown">
+                      <a class="dropdown-item" href="javascript:void()" >Forms <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </a>
+                      <div class="ct_dropdown_menu">
+                        <ul>
+                          <li>
+                            <a href="https://apogeects.com/admission_form">Admission Form</a>
+                          </li>
+                          <li>
+                            <a href="https://apogeects.com/career_form"> Career Form</a>
+                          </li>
+                          <li>
+                            <a href="https://apogeects.com/franchise_form">Franchise Form</a>
+                          </li>
+                        </ul>
+                      </div>    
+                    </li>
+                 <!--    <li class="ct_custom_dropdown">
+                      <a class="dropdown-item" href="#">Materials <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                      <div class="ct_dropdown_menu">
+                        <ul>
+                          <li>
+                            <a href="https://apogeects.com/ebook">e-books</a>
+                          </li>
+                          <li>
+                            <a href="https://apogeects.com/videos"> Videos</a>
+                          </li>
+                          <li>
+                            <a href="#">Packages </a>
+                          </li>
+                        </ul>
+                      </div>  
+                    </li> -->
+                    <li class="ct_custom_dropdown">
+                      <a class="dropdown-item" href="#">Achievements <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                      <div class="ct_dropdown_menu">
+                        <ul>
+                          <li>
+                            <a href="https://apogeects.com/spardha_results">Results</a>
+                          </li>
+                          <li>
+                            <a href="https://apogeects.com/world_records">World Records</a>
+                          </li>
+
+                        </ul>
+                      </div> 
+                    </li>
+                    <li><a class="dropdown-item" href="https://apogeects.com/about">About Us</a></li>
+                    <li><a class="dropdown-item" href="https://apogeects.com/Gallery">Gallery</a></li>
+                  </ul>
+
+                  </li>
+        
+                  <!-- <li class="nav-item" style="width: 100px;">
+                    <a class="nav-link" href="https://apogeects.com/ebook">
+                    E-books
+                    </a>
+                  </li>
+                   <li class="nav-item" style="width: 100px;">
+                    <a class="nav-link" href="https://apogeects.com/videos">
+                    Videos
+                    </a>
+                  </li> -->
+                   <!--<li class="nav-item" style="width: 100px;">
+                    <a class="nav-link" href="quizzes">
+                    Quizzes
+                    </a>
+                  </li>-->
+               
+				  
+				  
+				 <!--  <li class=" nav-item dropdown" ><a href="" class="nav-link"  data-bs-toggle="dropdown">Forms </a>
+                 <ul class="dropdown-menu">
+				
+                       <li><a class="dropdown-item"> target="_blank" href="https://apogeects.com/admission_form">Admission Form </a></li>
+                       <li><a class="dropdown-item"> target="_blank" href="https://apogeects.com/career_form">Career Form</a></li>
+                       <li><a class="dropdown-item"> target="_blank" href="https://apogeects.com/franchise_form">Franchise Form</a></li>
+				 
+                       
+                 </ul>
+               </li> -->
+				 
+                   <!--<li class="nav-item" style="width: 140px;">
+                    <a class="nav-link" target="_blank" href="live_classes">
+                   Live Classess
+                    </a>
+                  </li>-->
+                  
+                                        <li class="nav-item">
+                        <a href="https://apogeects.com/login" class="nav-link btn-login">
+                          <i class="fas fa-sign-in-alt mr-3"></i>Login                        </a>
+                      </li>
+                       <li class="card-item ct_d_teb_none">
+
+                        <a href="https://apogeects.com/cart" title="View Cart"><span class="cart-bg"> <b>0</b></span><i class="fa fa-shopping-cart"></i></a></li>
+                        <li class="card-item android ct_d_teb_none">
+
+                        <a href="#"  title=""><i class="fa fa-android"></i></a></li>
+                      
+                
+
+                  </ul>
+
+                </div>
+
+               <!--  <button class="w3-button w3-teal des-hide w3-right ms" onclick="openRightMenu()"><i class="fa fa-search"></i></button> -->
+
+                <button class="navbar-toggler" id="menu_togle_btn" type="button" data-toggle="collapse" data-target="#headerMenuCollapse" aria-controls="headerMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+                 
+
+              </div>
+          
+            </div>
+          </div>   
+            <div class="header_margin_padding">
+            <div class="container-fluid">
+<div class="row" style="padding: 100px;">
+    <div class="col-lg-12 text-center">
+        <h2 class="text-center">OOPS!</h2>
+        <p class="text-center">You requested a page that does not exist.</p>
+        <pre class="error-404">
+    ) )        /\
+   =====      /  \
+  _|___|_____/ __ \____________
+ |::::::::::/ |  | \:::::::::::|
+ |:::::::::/  ====  \::::::::::|
+ |::::::::/__________\:::::::::|
+ |_________|  ____  |__________|
+  | ______ | / || \ | _______ |
+  ||  |   || ====== ||   |   ||
+  ||--+---|| |    | ||---+---||
+  ||__|___|| |   o| ||___|___||
+  |========| |____| |=========|
+ (^^-^^^^^-|________|-^^^--^^^)
+ (,, , ,, ,/________\,,,, ,, ,)
+','',,,,' /__________\,,,',',;;
+        </pre>
+        <p class="text-center">
+            <a type="button" class="btn btn-primary btn-lg" href="https://apogeects.com/">Return Home</a>
+        </p>
+    </div>
+</div>
+</div>
+          </div>
+
+        <!--   <img src="" style="margin-bottom: -30px;" > -->
+                  </a></div>
+<div class="clearfix"></div>
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 text-center copyright_footer">
+                  Copyright Â© 2026 Spardhaguru v1.2.0. Â© 2026 All rights reserved                </div>
+              </div>
+            </div>
+
+            <!-- START Bootstrap-Cookie-Alert -->
+            <div class="alert text-center cookiealert" role="alert">
+              <b>Do you like cookies</b> &#x1F36A; We use cookies <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+
+              <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+                I agree
+              </button>
+            </div>
+            <!-- END Bootstrap-Cookie-Alert -->
+
+          </footer>
+          
+        </div>
+      
+ <div class="w3-sidebar w3-bar-block w3-card fadeInRight " style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">&times;</button>
+  <div class="row">
+    <div class="col-9">
+      <input type="text" class="search-input" placeholder="Search Gradeup for articles , quizzes and more." name="">
+    </div>
+    <div class="col-3"><button class="search-btn"><i class="fa fa-search"></i></button></div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <h6 class="resent">Recent Searches</h6>
+      <p class="hisry"><i class="fas fa-history"></i> ssc mocktext</p>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-12">
+      <h6 class="resent">Trending</h6>
+      <p class="hisry"><i class="fas fa-chart-bar"></i> ssc mocktext</p>
+       <p class="hisry"><i class="fas fa-chart-bar"></i> ssc mocktext</p>
+        <p class="hisry"><i class="fas fa-chart-bar"></i> ssc mocktext</p>
+         <p class="hisry"><i class="fas fa-chart-bar"></i> ssc mocktext</p>
+    </div>
+  </div>
+
+
+</div>
+</div>
+                                              
+<script type="text/javascript" src="https://apogeects.com/assets/themes/quizzy/js/jquery.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/quizzy/js/jquery-ui.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/admin/js/popper.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/admin/js/tooltip.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/admin/js/bootstrap.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/admin/js/jquery.nicescroll.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/admin/js/jquery.dataTables.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/admin/js/dataTables.bootstrap4.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/admin/js/select2.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/quizzy/js/noty.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/quizzy/js/commonjs.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/quizzy/js/cookiealert.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/admin/js/sweetalert-dev.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://apogeects.com/assets/themes/quizzy/js/jquery.simple.timer.js?v=1.2.0"></script>
+                                        
+<script type="text/javascript">
+
+</script>
+                      
+  <script src="https://cdn.jsdelivr.net/npm/jquery-simple-timer@1.0.1/jquery.simple.timer.js"></script>
+  <script type="text/javascript" src="https://apogeects.com/assets/themes/quizzy/js/animation.js"></script>
+ 
+  <script>
+
+function openRightMenu() {
+
+  document.getElementById("rightMenu").style.display = "block";
+}
+
+function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+}
+</script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+var SITEURL = "https://apogeects.com/";
+$('body').on('click', '.buy_now', function(e){
+
+//var totalAmount = $(this).attr("data-amount");
+//var product_id =  $(this).attr("data-id");
+var totalAmount =  $(this).data("amount");
+var type =  $(this).data("type");
+//alert(type);
+var order_id =  $(this).data("id");
+var rest_name =  "package";
+var apikey =  "rzp_test_KXmy46XNHoyv0S";
+var options = {
+"key": apikey,
+"amount": parseFloat(totalAmount)*100, // 2000 paise = INR 20
+"name": rest_name,
+"description": "Payment",
+"image": "https://mockopedia.com/assets/images/logo/1634669803IMG-9017.PNG",
+"handler": function (response){
+$.ajax({
+url: SITEURL + 'cart/razorPaySuccess',
+type: 'post',
+dataType: 'json',
+data: {
+razorpay_payment_id: response.razorpay_payment_id , order_id : order_id,totalAmount:totalAmount,payfortype:type
+}, 
+success: function (msg) {
+window.location.href = SITEURL + 'cart/razor_thanku';
+}
+});
+},
+"theme": {
+"color": "#00B9CF"
+
+}
+};
+var rzp1 = new Razorpay(options);
+rzp1.open();
+e.preventDefault();
+});
+
+        
+ $('.v-close').click(function() {
+    location.reload();
+});
+</script>
+<script type="text/javascript">
+        $(function() {
+            $('#table1').DataTable({
+                pageLength: 10,
+                //"ajax": './assets/demo/data/table_data.json',
+                /*"columns": [
+                    { "data": "name" },
+                    { "data": "office" },
+                    { "data": "extn" },
+                    { "data": "start_date" },
+                    { "data": "salary" }
+                ]*/
+            });
+        })
+    </script>
+ <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-8c8472f2-382c-4024-a437-8474dce2f434"></div>
+<!--<div id="fixed-social">
+  <div>
+    <a href="https://www.facebook.com/Spardhaguruu" class="fixed-facebook" target="_blank"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
+  </div>
+  <div>
+    <a href="https://twitter.com/Spardhaguru1" class="fixed-twitter" target="_blank"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
+  </div>
+  
+  <div>
+    <a href="https://www.youtube.com/channel/UC1-eqy29145S2wTv4bwvGMg" class="fixed-youtube" target="_blank"><i class="fa fa-youtube"></i> <span>Youtube</span></a>
+  </div>
+   <div>
+    <a href="https://t.me/spardhaguruindiaprivatelimited" class="fixed-telegram" target="_blank"><i class="fab fa-telegram"></i> <span>Telegram</span></a>
+  </div>
+  <div>
+    <a href="https://www.instagram.com/spardha.guru/?hl=en" class="fixed-instagrem" target="_blank"><i class="fa fa-instagram"></i> <span>Instagram</span></a>
+  </div>
+ 
+</div>-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script type="text/javascript">
+ $(document).ready(function(){
+      $('.my-slider').slick({
+          infinite:false,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 2000,
+   mobileFirst: true,
+     arrow:true,
+     variableWidth: true,
+     centerMode: true,
+
+        responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow:2,
+        }
+      },
+      {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        
+        }
+      }
+    ]
+      });
+    });
+</script>
+<script type="text/javascript">
+   $(".slick-slider").slick({
+   slidesToShow: 1,
+   infinite:false,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 2000,
+   mobileFirst: true,
+     arrow:true,
+     variableWidth: true,
+     centerMode: true,
+       prevArrow:"<button type='button' class='slick-prev'><i class='fa fa-chevron-left' aria-hidden='true'></i></button>",
+        nextArrow:"<button type='button' class='slick-next'><i class='fa fa-chevron-right' aria-hidden='true'></i></button>",
+     // dots: false, Boolean
+    // arrows: false, Boolean
+  });
+
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript">
+  
+  $(document).ready(function(){
+     $('.ct_testimonial').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    smartSpeed:2000,
+    autoplayTimeout:2000 ,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+   $('.ct_faculty_slide').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    smartSpeed:2000,
+   
+    autoplayTimeout:3000,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+     $('.ct_notification_slider').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:false,
+    dots:true,
+    autoplay:true,
+    smartSpeed:2000,
+   
+    autoplayTimeout:3000,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+  
+
+    $('.ct_home_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    smartSpeed:2000,
+   
+    autoplayTimeout:3000,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+      $('.ct_small_logo_sldr').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    smartSpeed:2000,
+   
+    autoplayTimeout:3000,
+
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
+          $('.ct_course_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:true,
+    autoplay:true,
+    smartSpeed:2000,
+   
+    autoplayTimeout:3000,
+
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+  
+        
+  
+  })
+</script>
+<script type="text/javascript">
+
+function stopPrntScr() {
+
+            var inpFld = document.createElement("input");
+            inpFld.setAttribute("value", ".");
+            inpFld.setAttribute("width", "0");
+            inpFld.style.height = "0px";
+            inpFld.style.width = "0px";
+            inpFld.style.border = "0px";
+            document.body.appendChild(inpFld);
+            inpFld.select();
+            document.execCommand("copy");
+            inpFld.remove(inpFld);
+        }
+       function AccessClipboardData() {
+            try {
+                window.clipboardData.setData('text', "Access   Restricted");
+            } catch (err) {
+            }
+        }
+        setInterval("AccessClipboardData()", 300);
+</script>
+
+
+</body>
+</html>
+
